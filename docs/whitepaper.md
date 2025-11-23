@@ -59,7 +59,7 @@
 - **Interoperability**: substrate under A2A/MCP/LangGraph/etc.; transport-agnostic (HTTP/WS/QUIC/libp2p); schema standardization; signature uniformity.
 
 ## 10. Roadmap to Planetary Intelligence
-- **Epoch I (2025–26)**: 1k–10k agents; SDN/CCP/RER v1; SDKs; pilots; <200ms discovery.  
+- **Epoch I (2025–26)**: 1k–10k agents; SDN/CCP/RER v1; SDKs; pilots; &lt;200ms discovery.  
 - **Epoch II (2027–28)**: federated SDN; DAG v2; GCN orchestrator election; millions of agents; task markets.  
 - **Epoch III (2029–30)**: EKG; evolutionary capability networks; self-healing fabric; billion-scale agents; emergent global cognition.
 

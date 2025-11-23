@@ -62,7 +62,7 @@
 ## 10. Appendices (Key Excerpts)
 - **Message signatures**: Ed25519 | secp256k1 over hash(msg); verify before processing.  
 - **Hashes**: BLAKE3 default; SHA3-256 fallback.  
-- **Error codes**: {0 OK, 1 INVALID_SIGNATURE, 2 BAD_SCHEMA, 3 NO_ELIGIBLE_AGENTS, 4 DEADLINE_EXCEEDED, 5 DISPUTE_UPHELD, 6 EXECUTION_FAILURE, 7 SETTLEMENT_FAILURE}.  
+- **Error codes**: `{0 OK, 1 INVALID_SIGNATURE, 2 BAD_SCHEMA, 3 NO_ELIGIBLE_AGENTS, 4 DEADLINE_EXCEEDED, 5 DISPUTE_UPHELD, 6 EXECUTION_FAILURE, 7 SETTLEMENT_FAILURE}`.  
 - **Timers**: Discover 200–2000ms (800 default), Recruit 3–12s (6 default), Settle 30s–20m (5m default), Feedback 5m–1h (15m default).  
 - **ACARD schema v1**: required id, capabilities[], meta, proof; embedding length exactly 384; pricing model/amount/currency.  
 - **State transitions**: Publish→Discover→Recruit→Execute→Settle→Feedback→End.
