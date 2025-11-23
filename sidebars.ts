@@ -16,6 +16,8 @@ const sidebars: SidebarsConfig = {
   docs: [
     'intro',
     'quickstart',
+    'whitepaper',
+    'technical-spec',
   ],
 };
 
